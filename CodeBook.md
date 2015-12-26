@@ -31,8 +31,8 @@ Tidy.txt data file is obtained by merging the training and the test datasets fro
 
 Tidy.txt data has 180 obsesrvations of 81 variables:
 
- $ subjectId                   : Factor w/ 30 levels. For every subject of the study.
- $ activityId                  : Factor w/ 6 levels: "WALKING","WALKING_UPSTAIRS", "WALKING DOWNSTAIRS", "SITTING",                                          "STANDING", "LAYING". Describes the activity performed by every subject.
+ * subjectId                   : Factor w/ 30 levels. For every subject of the study.
+ * activityId                  : Factor w/ 6 levels: "WALKING","WALKING_UPSTAIRS", "WALKING DOWNSTAIRS", "SITTING",                                          "STANDING", "LAYING". Describes the activity performed by every subject.
  
 The rest of the variables are numerical values of the Mean and Standard deviation (Std) of the measurements in the 3 axis (X,Y,Z) of the accelerometer (Acc) and giroscope (Gyro), corresponding to the Body or the Gravity acceleration signals. Prefix 't' denotes time. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals. For more details, please read the features_info.txt file in the original data.
  
